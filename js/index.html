@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Moneda</title>
+</head>
+<body>
+    <h1>Convertidor de Moneda</h1>
+    
+    <form id="conversionForm">
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" placeholder="Cantidad" step="any" required>
+        
+        <label for="monedaOrigen">Selecciona la moneda de origen:</label>
+        <select id="monedaOrigen">
+            <option value="euros">Euros</option>
+            <option value="dolares">Dólares</option>
+        </select>
+        
+        <button id="convertirBtn" type="button">Convertir</button>
+        
+        <p id="resultado"></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
